@@ -14,7 +14,7 @@ for(i=0 ; i<target.length ; i++)
         }else{
             this.style.backgroundColor= "rgb(0, 211, 211)" 
         }
-        this.style.top = 600 * Math.random()
+        this.style.top = 550 * Math.random()
         this.style.left = 900 * Math.random()
         texthere.innerHTML = ('Click = ' + number);number++; 
         setTimeout(() => texthere.innerHTML = ( 'time is out 🤦‍♀️ ||' + ' Click = ' + number),60000,);
