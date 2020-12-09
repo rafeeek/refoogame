@@ -17,9 +17,9 @@ for(i=0 ; i<target.length ; i++)
         this.style.top = (90 * Math.random()) + '%'
         this.style.left = (90 * Math.random()) + '%'
         texthere.innerHTML = ('Click = ' + number);number++; 
-        setTimeout(() => texthere.innerHTML = ( 'time is out 🤦‍♀️ ||' + ' Click = ' + number),60000,);
-        setTimeout(() => alldiv.style.display = 'none' ,60000,);
-        setTimeout(() => reload.classList.remove('d-none') ,60000,);
+        setTimeout(() => texthere.innerHTML = ( 'time is out 🤦‍♀️ ||' + ' Click = ' + number),5000,);
+        setTimeout(() => alldiv.style.display = 'none' ,5000,);
+        setTimeout(() => reload.classList.remove('d-none') ,5000,);
     })   
 }
 
