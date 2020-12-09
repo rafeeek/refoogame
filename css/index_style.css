@@ -8,5 +8,5 @@ html {cursor: crosshair;}
 
 
 @media only screen and (max-width: 600px) {
-    
+    .mystartbtn {top: 50%; left: 43%;}
 }
